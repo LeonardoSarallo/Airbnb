@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.contenitore {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0eff4;
+  background-size: cover;
+  position: relative;
+
+
+}
+
+#newyork {
+  width: 30%;
+  height: 30%;
+  background-image: url(https://d12dkjq56sjcos.cloudfront.net/pub/media/wysiwyg/New-York-Skyline-Big-Bus-Tours-Jan-2018.jpg);
+  position: absolute;
+  border: 3px solid black;
+  top: 35%;
+  right: 35%;
+  background-size: cover;
+}
+
+#newyorktext {
+  text-align: center;
+  position: absolute;
+  font-family: monospace; color: white;
+  font-size: 50px;
+  top: 50%;
+  right: 50%;
+  transform: translate(100px, -50px);
+}
+
+#london {
+  width: 30%;
+  height: 30%;
+  background-image: url(https://cdn.londonandpartners.com/-/media/images/london/visit/london-organisations/tower-bridge-exhibition/tower-bridge-homepage-image.jpg?mw=1920&hash=E19E0136A57855A8ED61B4E66EA72F1646CA8DAC);
+  position: absolute;
+  border: 3px solid black;
+  top: 0;
+  right: 35%;
+  background-size: cover;
+}
+
+#londontext {
+  text-align: center;
+  position: absolute;
+
+  font-family: monospace; color: white;
+  font-size: 50px;
+  top: 0;
+  right: 50%;
+  transform:translate(50px, 75px);
+
+}
+
+#rome {
+  width: 30%;
+  height: 30%;
+  background-image: url(http://www.donatellorome.com/wp-content/uploads/2017/03/5104226627001_5232386545001_5215063851001-vs.jpg);
+  position: absolute;
+  border: 3px solid black;
+  bottom: 0;
+  right: 35%;
+  background-size: cover;
+}
+#rometext {
+  text-align: center;
+  position: absolute;
+
+  font-family: monospace; color: white;
+  font-size: 50px;
+  bottom:20%;
+  right: 60%;
+  transform:translate(200px, 50px);
